@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="horario.html">Horário</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <!-- Aqui vai o seu header -->
+                 <img src="assets/banner-clinica.png" alt="Banner da Clínica" width="100%">
+            </div>
+    
+            <div class="content">
+                <h2>Entre em Contato</h2>
+                <p><strong>Telefones:</strong> (85) 1234-5678 (Celular) / (85) 98765-4321 (WhatsApp)</p>
+                <p><strong>Endereço:</strong> Rua da Saúde, 123 - Bairro - Cidade - Estado</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12345.67890!2d-46.123456!3d-23.987654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjfCsDIyJzQ2LjUiUyA0NsKwMTYnNDMuOSJX!5e0!3m2!1spt-BR!2sbr!4v1624596826900!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <!-- Formulário de Contato -->
+                <form action="#" method="get" class="formulario-contato">
+                    <div class="input-group">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="assunto">Assunto:</label>
+                        <input type="text" id="assunto" name="assunto" required>
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem" required></textarea>
+                    </div>
+                    
+                    <div class="button-group">
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpar Formulário">
+                    </div>
+                </form>                
+            </div>
+    
+            <div class="footer">
+                <!-- Aqui vai o seu rodapé -->
+                <p>&copy; 2024 Clínica +Saúde. Todos os direitos reservados.</p>
+                <p>
+                    Endereço: Rua da Saúde, 123, Centro, Cidade - Estado, CEP 12345-678<br>
+                    Telefone: (85) 1234-5678 | Email: contato@clinicamaisaude.com.br
+                </p>
+                <p>
+                    <a href="/termos-de-uso">Termos de Uso</a> | 
+                    <a href="/politica-de-privacidade">Política de Privacidade</a> | 
+                    <a href="/sobre-nos">Sobre Nós</a> | 
+                    <a href="/contato">Contato</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
